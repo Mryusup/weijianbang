@@ -1,0 +1,32 @@
+{
+  "name": "root",
+  "tabBar": {
+    "height" : 54,
+    "frames": [{
+      "title": "ۋەزىپە",
+      "name": "page1",
+      "url": "widget://index.html"
+    }, {
+      "title": "排名",
+      "name": "page2",
+      "url": "widget://html/main.html"
+    }, {
+      "title": "我的",
+      "name": "page3",
+      "url": "widget://html/main.html"
+    }],
+    "list": [{
+      "text": "ۋەزىپە",
+      "iconPath": "widget://image/tab_1.png",
+      "selectedIconPath": "widget://image/tab_1_hov.png"
+    }, {
+      "text": "排名",
+      "iconPath": "widget://image/tab_2.png",
+      "selectedIconPath": "widget://image/tab_2_hov.png"
+    }, {
+      "text": "我的",
+      "iconPath": "widget://image/tab_3.png",
+      "selectedIconPath": "widget://image/tab_3_hov.png"
+    }]
+  }
+}
